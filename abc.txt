@@ -1,0 +1,79 @@
+Git Commands  [Started]
+
+git init myproject
+
+cd myproject
+
+git commit -m     {Import all code }[ m stands for message of commit]
+
+
+For Multiple user at a time commit on same module [Git Basic]
+
+Master User
+
+git checkout master  [User working on master branch]
+
+git commit -a -m “my logo file”
+
+git push
+
+Second user
+
+git checkout -b  danasfeature  [User working  on branches]
+
+git commit -a -m “my logo file”
+
+git push origin  danasfeature
+
+
+
+git pull
+
+
+Get Going with Git
+Install Git then done congiguration setting
+git config –global user.name “devtripathi”
+git config –global user.email “dptripathi@nextgenesolutions.com”
+then create your Git first project
+git init project1
+git cd project1
+Then create a file1.txt then add it to git
+git add file1.txt
+git commit -m “my first commit”  [ m stands for message of commit]
+
+git add filename [for single file add toreposatary]
+git add .  [add all files in current folder]
+git commit -m “my first commit”  [ m stands for message of commit] 
+git push origin master
+then username and password
+gedit filename [to edit file]
+then again
+git add .
+git commit -m “my first commit”  [ m stands for message of commit] 
+git push origin master
+then username and password
+
+Setup Git On system
+sudo apt-get install git
+git config --global user.name "devedu285"
+git config --global user.email "devedu285@gmail.com"
+then create Reposararery after login to Git
+create directory 
+mkdir gittest
+cd gittest
+follow command on git login panel after creating reposararty
+create a new repository on the command line
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/devedu285/test.git
+git push -u origin master
+
+Username for 'https://github.com': devedu285
+Password for 'https://devedu285@github.com': 
+Create new File
+nano abc.txt
+Press CTRL+O and CTRL+ENTER for save
+CTRL+X to Exit
